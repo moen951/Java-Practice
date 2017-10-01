@@ -1,7 +1,7 @@
 import java.io.*;
 class FileApi extends File
 {
-	String path = "E:/Window Document/github/Java-Practice/Eclipse/src/";
+	String path = "E:/My Document/github/Java-Practice/Eclipse/src/";
 	FileWriter fw;
 	FileReader fr;
 	
@@ -38,7 +38,7 @@ void writeFile(String s)
 {
 	try
 	{
-		fw = new FileWriter(path+file);
+		fw = new FileWriter(file);
 		fw.write(s);
 		fw.close();
 		
@@ -53,7 +53,7 @@ void writeFile(String s)
 */
 String readFile() throws Exception
 {
-	fr= new FileReader(path+file);
+	fr= new FileReader(file);
 	BufferedReader br = new BufferedReader(fr);
 	String data;
 	while((data = br.readLine()) == null)
