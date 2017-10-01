@@ -14,7 +14,7 @@ class FileApi extends File
 
 	boolean fileExists()
 	{
-		if(file.exists()+ path != null)
+		if(file.exists())
 			return true;
 		else
 			return false;

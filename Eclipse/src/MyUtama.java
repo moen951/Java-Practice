@@ -23,7 +23,7 @@ class MyUtama
 				System.out.println("\n Insert text to be saved into file:");
 				String content = br.readLine();
 				fileapi.writeFile(content);
-				System.out.println("\n The text above is save into file "+namafail+".txt");
+				//System.out.println("\n The text above is save into file "+namafail+".txt");
 		}
 	}
 
