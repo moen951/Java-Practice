@@ -1,7 +1,7 @@
 import java.io.*;
 class FileApi extends File
 {
-	String path = "E:/My Document/github/Java-Practice/Eclipse/src/";
+	//String path = "E:/Window Document/github/Java-Practice/Eclipse/src/";
 	FileWriter fw;
 	FileReader fr;
 	
@@ -14,10 +14,12 @@ class FileApi extends File
 
 	boolean fileExists()
 	{
-		if(file.exists())
-			return true;
-		else
-			return false;
+				
+			if(file.exists())
+				return true;
+			else
+				return false;
+		
 	}
 	/**
 	This method is used to create a new file in the 
