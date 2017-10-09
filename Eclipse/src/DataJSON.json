@@ -1,0 +1,8 @@
+{
+	"sayHello":"Helloooo Duniaaa",
+	"db1Price1":"150.5",
+	"intQty":"5",
+	"arrStudent":[{"studName":"Alberto","age":"17","course":"BITS"},
+					{"studName":"Suharto","age":"18","course":"BITD"},
+					{"studName":"Najib","age":"20","course":"BITI"}]
+}
